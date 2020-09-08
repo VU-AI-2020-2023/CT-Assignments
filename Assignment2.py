@@ -3,26 +3,26 @@ from random import sample
 from string import printable
 
 def first():
-    num1 = float(input("Give the first number: "))
-    num2 = float(input("Give the second number: "))
-    nsum = num1 + num2
-    print("The sum of the numbers is: %f" % nsum)
+    x = float(input("Give the first number: "))
+    y = float(input("Give the second number: "))
+    s = x + y
+    print("The sum of the numbers is: %f" % s)
 
 def second():
     w = float(input("Give the width of the box: "))
     l = float(input("Give the length of the box: "))
     h = float(input("Give the height of the box: "))
-    volume = w * l * h
-    print("The volume of the box is: %s" % volume)
+    v = w * l * h
+    print("The volume of the box is: %s" % v)
 
 def third():
-    year = date.today().year
-    name = str(input("What is your name: "))
-    birth = int(input("What is your year of birth: "))
-    print("%s was born in %i and is %i years old in %i" % (name.capitalize(), birth, year - birth, year))
+    y = date.today().year
+    n = str(input("What is your name: "))
+    b = int(input("What is your year of birth: "))
+    print("%s was born in %i and is %i years old in %i" % (n.capitalize(), b, y - b, y))
 
 def fourth():
-    passlen = int(input("What length should the password be: "))
-    chars = printable[:-15]
-    password =  "".join(sample(chars, passlen))
-    print("Your generated password is: %s" % password)
+    l = int(input("What length should the password be: "))
+    a = printable[:-15]
+    p =  "".join(sample(a, l))
+    print("Your generated password is: %s" % p)
