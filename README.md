@@ -1,4 +1,5 @@
-This repository contains examples of solutions for Computational Thinking P1 assignments.
+This repository contains examples of solutions for Computational Thinking P1 assignments
+as well as some tutorials or examples to help you understand some methods.
 These are purely instructional and are not meant to be copy and pasted for submission.
 I do not take responsibility if the contents of this repository are used in actions of plagiarism,
 therefore, you should solve the problems by yourself and come up with your own solutions.
