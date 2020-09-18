@@ -1,11 +1,12 @@
+# Problem 7
 
 while True:
-    number = int(input("Number of people to invite: "))
+    guests = int(input("Number of people to invite: "))
 
-    if number > 6:
+    if guests > 6:
         print("Too many, try again!")
     else:
-        for i in range(number):
-            name = str(input("Name of person: "))
-            print("%s inivted!" % name)
+        for i in range(guests):
+            guest_name = str(input("Name of person: "))
+            print("%s inivted!" % guest_name)
         break
